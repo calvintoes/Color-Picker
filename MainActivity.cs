@@ -138,6 +138,7 @@ namespace ColorPicker
                 else if (green > 255)
                     green = 255;
 
+                greenBar.Progress = green;
                 updateColor();
             }
         }
@@ -153,6 +154,7 @@ namespace ColorPicker
                 else if (blue > 255)
                     blue = 255;
 
+                blueBar.Progress = blue;
                 updateColor();
             }
         }
@@ -168,7 +170,7 @@ namespace ColorPicker
                 else if (red > 255)
                     red = 255;
 
-
+                redBar.Progress = red;
                 updateColor();
 
 
